@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #FFF;
+    padding: 60px 240px 24px 240px;
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    border-radius: 16px;
+    height: 156px;
+}
+.user-inf{
+    margin-top: 15px;
+    height: 54px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(165, 3%, 31%);
+}
+span{
+    font-size: 14px;
+    color: hsl(0, 0%, 66%);
+    font-weight: 600;
+}
+.account-inf{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 24px;
+    width: 100%;
+}
+.account-inf div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 3px;
+    height: 67px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 90%);
+}
+.account-inf div p{
+    font-size: 18px;
+}
+.account-inf div span{
+    font-size: 14px;
+}
+.images{
+    display: flex;
+    grid-gap: 32px;
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 174px;
+    width: 100%;
+}
+.images img{
+    border-radius: 12px;
+}
+.image1{
+    width: 31%;
+    object-fit: cover;
+}
+.image2{
+    width: 65%;
+    object-fit: cover;
+}
+.image3{
+    width: 65%;
+    margin-right: 30%;
+}
+.image4{
+    position: absolute;
+    height: 65%;
+    object-fit: cover;
+    bottom: 0;
+    right: 0;
+}
+.image5{
+    width: 31%;
+    object-fit: cover;
+}
+.image6{
+    width: 31%;
+    object-fit: cover;
+}
+.attribution{
+    font-size: 14px;
+    margin-top: 134px;
+    width: 100%;
+    text-align: center;
+}
+.attribution p{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(230, 10%, 64%);
+}
+.attribution a{
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(230, 10%, 64%);
+}
+@media(max-width:1200px){
+    body{
+        padding: 30px 12px 24px 12px;
+    }
+    .images{
+        margin: 74px 0 74px 0;
+        grid-gap: 12px;
+    }
+}
