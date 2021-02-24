@@ -8,7 +8,6 @@
 
 <div align="center">
   <h3>
-    <span> | </span>
     <a href="https://gracious-dijkstra-ce8b49.netlify.app/">
       Solution
     </a>
